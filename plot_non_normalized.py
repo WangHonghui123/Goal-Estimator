@@ -2,9 +2,10 @@ import pickle
 import numpy as np
 import matplotlib.pyplot as plt
 
-open_directory = "./goal_estimated_result/ETH_UCY/"
+open_directory = "./goal_estimated_result/ETH_UCY (Non_Normalized)/"
 dataset = ['univ', 'eth', 'zara1', 'zara2', 'hotel']
-save_image_directory = "./goal_estimated_result/ETH_UCY/"
+save_image_directory = "./goal_estimated_result/ETH_UCY (Non_Normalized)/"
+
 for dataname in dataset:
     open_error_file = open_directory + "goal_estimated_error_" + dataname + "_2.pkl"
     open_estimation_file = open_directory + "goal_estimated_" + dataname + "_2.pkl"
@@ -16,6 +17,6 @@ for dataname in dataset:
     plt.hist(error, density=True)
     plt.xlabel('L2-norm error')
     plt.ylabel('The frequency of L2-norm error')
-    plt.title(f'The goal estimation on {dataname} \n with average L2-norm loss {aver_error}')
+    plt.title(f'The goal estimation on {dataname} with normalization\n Average L2-norm loss {aver_error}')
     plt.savefig(save_image_directory + f'goal_estimated_histogram_{dataname}.png')
     plt.show()
