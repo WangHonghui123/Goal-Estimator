@@ -13,16 +13,16 @@ The goal estimator is from this paper:
 ```
 The histogram of this goal estimator on ETH/UCY dataset is shown as follows:
 
-<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_eth.png" style="display: inline; border-width: 0px;" width=500px></img>
-<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_eth.png" style="display: inline; border-width: 0px;" width=500px></img>
-<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_hotel.png" style="display: inline; border-width: 0px;" width=500px></img>
-<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_hotel.png" style="display: inline; border-width: 0px;" width=500px></img>
-<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_univ.png" style="display: inline; border-width: 0px;" width=500px></img>
-<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_univ.png" style="display: inline; border-width: 0px;" width=500px></img>
-<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_zara1.png" style="display: inline; border-width: 0px;" width=500px></img>
-<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_zara1.png" style="display: inline; border-width: 0px;" width=500px></img>
-<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_zara2.png" style="display: inline; border-width: 0px;" width=500px></img>
-<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_zara2.png" style="display: inline; border-width: 0px;" width=500px></img>
+<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_eth.png" style="display: inline; border-width: 0px;" width=300px></img>
+<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_eth.png" style="display: inline; border-width: 0px;" width=300px></img>
+<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_hotel.png" style="display: inline; border-width: 0px;" width=300px></img>
+<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_hotel.png" style="display: inline; border-width: 0px;" width=300px></img>
+<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_univ.png" style="display: inline; border-width: 0px;" width=300px></img>
+<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_univ.png" style="display: inline; border-width: 0px;" width=300px></img>
+<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_zara1.png" style="display: inline; border-width: 0px;" width=300px></img>
+<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_zara1.png" style="display: inline; border-width: 0px;" width=300px></img>
+<img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_zara2.png" style="display: inline; border-width: 0px;" width=300px></img>
+<img src="goal_estimated_result/ETH_UCY (Non_Normalized)/goal_estimated_histogram_zara2.png" style="display: inline; border-width: 0px;" width=300px></img>
 
 
 The Final Displacement Error is shown as follows:
