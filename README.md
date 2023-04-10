@@ -1,5 +1,5 @@
 # Goal-Estimator
-For research use only
+Goal-conditioned deep learning for trajectory prediction is to predict the goal position in advance and then uses the estimated goal positions to forecast the trajectory. Therefore, the accuracy of goal estimation is essential.
 
 The goal estimator is from this paper:
 ```bibtex
