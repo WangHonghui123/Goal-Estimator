@@ -1,7 +1,7 @@
 import argparse
 import torch
 import numpy as np
-from utils_ETH_UCY import *
+from utils_ETH_UCY_Normalized import *
 from helper_expert import *
 import pickle
 
@@ -13,8 +13,6 @@ class Data_Expert:
         self.pred_traj_gt = pred_traj_gt
 
 def test(dataset_name):
-
-# def test():
 
     '''
     For dataset (train, val and test set)
@@ -146,7 +144,7 @@ if __name__ == '__main__':
     '''
     For save
     '''
-    save_directory = "./goal_estimated_result/ETH_UCY/"
+    save_directory = "./goal_estimated_result/ETH_UCY (Normalized)/"
     #if there is not a directory under a specified route, it will be created.
     if not os.path.exists(save_directory):
         os.makedirs(save_directory)
