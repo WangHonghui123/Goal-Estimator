@@ -109,7 +109,7 @@ def test(dataset_name):
         '''
         rst = torch.stack(rst)  # [num_of_objs, 2]
         estimated_goal_result['Predicted_Goal'].append(rst.numpy())
-        ground_truth_goal = pred_traj_gt[0,-1]  # ground truth goal: [num_of_objs, 2]
+        ground_truth_goal = pred_traj_gt[0,-1,:num_of_objs]  # ground truth goal: [num_of_objs, 2]
         estimated_goal_result['True_Goal'].append(ground_truth_goal.numpy())
 
         end_error = torch.stack(end_error)  # The distance between all selected predicted goals and corresponding truth goals
