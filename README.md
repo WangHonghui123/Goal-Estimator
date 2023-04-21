@@ -11,6 +11,7 @@ The goal estimator is from this paper:
   year={2021}
 }
 ```
+Note that the result is different from the paper shown above
 The histogram of this goal estimator on ETH/UCY dataset is shown as follows:
 
 <img src="goal_estimated_result/ETH_UCY (Normalized)/goal_estimated_histogram_eth.png" style="display: inline; border-width: 0px;" width=400px></img>
